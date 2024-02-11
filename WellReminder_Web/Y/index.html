@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Well Reminder</title>
+    <style>
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to bottom, #87CEEB, #4e54c8);
+        color: #353535;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    #titleText {
+        margin-top: -15px;
+        margin-bottom: 5px;
+    }
+
+    #logo {
+        max-width: 200px;
+        margin-top: 50px;
+    }
+
+    #content {
+        max-width: 800px;
+        padding-left: 40px;
+        padding-right: 40px;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 36px;
+        font-weight:600;
+        color: #000;
+    }
+
+    #country {
+        font-size: 14px;
+        margin-top: -5px;
+        margin-bottom: 5px;
+    }
+
+    #helpLineDesc {
+        font-size: 20px;
+        margin-top: -500;
+        margin-bottom: 0;
+    }
+
+    #helpLineDesc2 {
+        font-size: 20px;
+        margin-top: -500;
+        margin-bottom: 0;
+    }
+
+    #helpLine {
+        font-size: 60px;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    #helpLine2 {
+        font-size: 60px;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    #resources {
+        font-weight: 600;
+        margin-bottom: 5;
+    }
+
+    #infoText {
+        font-size: 15px;
+        color: azure;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        max-width: 800px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background: rgba(0, 0, 0, 0.35);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h4 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    a {
+        color: inherit;
+    }
+
+    footer {
+        margin-top: auto; /* Adjusted this line */
+        margin-bottom: 5px;
+        font-size: 14px;
+        color: #ccc;
+    }
+    </style>
+</head>
+<body>
+    <img src="logo.png" id="logo">
+    <div id="titleText">
+        <h2>Well Reminder</h2>
+    </div>
+
+    <div id="content">
+        <h3 id="helpLineDesc">Mental Health Helpline:</h3>
+        <p id="helpLine">1-800-123-4567</p>
+        <h3 id="helpLineDesc2"></h3>
+        <p id="helpLine2"></p>
+
+        <p id="country">Country</p>
+    </div>
+
+    <br>
+    
+    <div id="infoText">
+        <p>In moments of difficulty, it's crucial to recognize that help is available. If you find yourself facing challenges or needing someone to talk to, consider reaching out to a mental health helpline. The professionals on the other end are there to listen, support, and guide you without judgment. It's okay not to be okay, and your decision to seek help is both valid and important. You are not alone in this journey, and connecting with a helpline is a powerful step towards healing and understanding. Remember, there is strength in reaching out, and support is just a call away.</p>
+        <p>In the moments when the weight of the world feels heavy on your shoulders, remember that reaching out is an act of courage and self-compassion. Mental health helplines are dedicated spaces where compassionate professionals are ready to stand by you, offering a listening ear and a supportive presence. It's perfectly okay to not have all the answers, and it's okay to seek guidance when you need it most. Your feelings are valid, and by making that call, you're not just asking for help – you're choosing strength, resilience, and the belief that things can get better.</p>
+        <p>Helplines are not merely numbers; they're connections to a community that understands and values your well-being. The journey towards mental health is not solitary; it's shared with those who genuinely care. So, if you find yourself at a crossroads, uncertain about the next steps, remember that support is just a call away. Take that step, because in reaching out, you're not only acknowledging your struggles but also embracing the hope for a brighter tomorrow. Together, let's navigate through the challenges, one conversation at a time, and rediscover the strength within you.</p>
+        
+        <h4>Resources</h4>
+        <div id="resources">
+            <a href="https://www.betterhelp.com/">BetterHelp</a>
+            <br>
+            <a href="https://www.nimh.nih.gov/health/find-help">NIH - Help for Mental Illnesses</a>
+            <br>
+            <a href="https://fullcircleatc.com/">Full Circle Art Therapy</a>
+            <br>
+            <a href="https://kidshelpphone.ca/">Kids Help Phone, Canada</a>
+            <br>
+            <a href="https://www.mhanational.org/">Mental Health America</a>
+            <br>
+            <a href="https://www.mayoclinic.org/diseases-conditions/mental-illness/symptoms-causes/syc-20374968">Mayo Clinic</a>
+            <br>
+            <a href="https://www.psychiatry.org/">American Psychiatric Association</a>
+            <br>
+            <a href="https://www.mind.org.uk/">Mind</a>
+            <br>
+            <a href="https://adaa.org/">Anxiety and Depression Association of America</a>
+            <br>
+        </div>
+        <br>
+        <h4>Who are we?</h4>
+        <p>Our mission is rooted in creating a compassionate space where individuals feel empowered to prioritize their mental health without fear of judgment or stigma. We are driven by a shared belief in the importance of mental health, striving to offer valuable resources and accessible, responsive local helplines. We aim to build a community where an individual can get the support they need to start on their path to mental wellness.</p>
+    </div>
+
+    <footer>
+        &copy; 2024 Well Reminder. All rights reserved.
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

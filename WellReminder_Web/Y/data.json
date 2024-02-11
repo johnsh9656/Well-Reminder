@@ -1,0 +1,53 @@
+{
+    "countries": [
+        {
+            "name": "Canada",
+            "desc1": "Wellness Together Canada: mental health and substance use support",
+            "helpline1": "1-866-585-0445",
+            "desc2": "Suicide Crisis Helpline",
+            "helpline2": "9-8-8"
+        },
+        {
+            "name": "United States",
+            "desc1": "NAMI: HelpLine",
+            "helpline1": "1-800-950-6264",
+            "desc2": "Teen Line: For youth in need of support",
+            "helpline2": "800-852-8336" 
+        },
+        {
+            "name": "Australia",
+            "desc1": "Mind: Infoline",
+            "helpline1": "1300 286 463",
+            "desc2": "Sane Australia: Counselling support for mental health issues",
+            "helpline2": "1800 187 263"
+        },
+        {
+            "name": "India",
+            "desc1": "Jeevan Aastha Helpline",
+            "helpline1": "1800 233 3330",
+            "desc2": "Mann Talks: To speak with a trained mental health professional",
+            "helpline2": "+91-8686139139"
+        },
+        {
+            "name": "United Kingdom",
+            "desc1": "Anxiety UK",
+            "helpline1": "03444 775 774",
+            "desc2": "Mind: Infoline",
+            "helpline2": "0300 123 3393"
+        },
+        {
+            "name": "South Africa",
+            "desc1": "Akeso: help and counselling for different disorders",
+            "helpline1": "0861 435 787",
+            "desc2": "The South African Depression and Anxiety Group: offers help and counselling for all mental health problems",
+            "helpline2": "0800 567 567"
+        },
+        {
+            "name": "Phillipines",
+            "desc1": "Phillipine mental health association",
+            "helpline1": "+63 2 921 4958",
+            "desc2": "In Touch Philippines free and anonymous 24/7 crisis line",
+            "helpline2": "+63 922 893 8944"
+        }
+    ]
+}

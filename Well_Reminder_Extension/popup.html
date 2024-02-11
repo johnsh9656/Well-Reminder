@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Well Reminder</title> 
+
+    <style>
+        body {
+          width: 200px;
+          margin: 0;
+          padding: 0;
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          background: linear-gradient(to bottom, #87CEEB, #4e54c8);
+          color: #353535;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+
+        #titleText {
+          margin-top: -10px;
+          margin-bottom: 5px;
+        }
+
+        #logo {
+          max-width: 140px;
+          margin-top: 25px;
+        }
+
+        #content {
+          max-width: 180px;
+          padding-left: 20px;
+          padding-right: 20px;
+          background: rgba(255, 255, 255, 0.7);
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 18px;
+          font-weight:600;
+          color: #000;
+        }
+
+        #country {
+          font-size: 10px;
+          margin-top: 0px;
+          margin-bottom: 10px;
+        }
+
+        #helpLineDesc {
+          font-size: 12px;
+          margin-top: -500;
+          margin-bottom: 0;
+        }
+
+        #helpLineDesc2 {
+          font-size: 12px;
+          margin-top: -500;
+          margin-bottom: 0;
+        }
+
+        #helpLine {
+          font-size: 18px;
+          font-weight: bold;
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+
+        #helpLine2 {
+          font-size: 18px;
+          font-weight: bold;
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+        </style>
+</head>
+
+<body>
+  <a href="https://well-reminder.web.app/">
+    <img src="logo_128.png" id="logo">
+  </a>
+  <div id="titleText">
+      <h2>Well Reminder</h2>
+  </div>
+
+  <div id="content">
+      <h3 id="helpLineDesc">Mental Health Helpline:</h3>
+      <p id="helpLine">1-800-123-4567</p>
+      <h3 id="helpLineDesc2"></h3>
+      <p id="helpLine2"></p>
+
+      <p id="country">Country</p>
+  </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
